@@ -13,7 +13,7 @@
 
 | Tópicos|
 |---|
-| [Definição do Problema](#-Definição do Problema)|
+| [Definição do Problema](#-definição-do-problema)|
 | [Etapas do Projeto](#-etapas-do-projeto)|
 | [Estrutura do Repositório](#-estrutura-do-repositório)|
 | [Tecnologias Utilizadas](#-tecnologias-utilizadas)|
@@ -100,37 +100,35 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 1. [Tabulate](https://pypi.org/project/tabulate/): Dados tabulares impressos em Python em formatação mais agradável, para múltiplos formatos de saída adequados para edição ou transformação adicional.
 
 **Atualizações e Utilitários** 
-1. [Joblib](colocar o link): Biblioteca utilizada para serialização em Python, comumente usada para salvar modelos de Machine Learning treinados (por exemplo, objetos do Scikit-learn) em disco de forma eficiente. Também otimiza o uso de paralelismo e cache em pipelines.
+1. [Joblib](https://joblib.readthedocs.io/en/stable/): Biblioteca utilizada para serialização em Python, comumente usada para salvar modelos de Machine Learning treinados (por exemplo, objetos do Scikit-learn) em disco de forma eficiente. Também otimiza o uso de paralelismo e cache em pipelines.
 
 **Machine Learning e AutoML** 
-1. [XGBoost](colocar o link): Biblioteca otimizada para gradient boosting, muito eficiente para grandes volumes de dados. É conhecida por sua performance em competições de Machine Learning devido à sua rapidez e precisão.
-2. [LightGBM](colocar o link): Framework de boosting desenvolvido pela Microsoft, que utiliza uma técnica chamada histogram-based learning para ser ainda mais rápido e com menor uso de memória do que o XGBoost.
-3. [CatBoost](colocar o link): Biblioteca de boosting criada pela Yandex, projetada para lidar de forma nativa com variáveis categóricas, evitando a necessidade de one-hot encoding.
-4. [FLAML](colocar o link): Framework leve de AutoML que busca automaticamente o melhor modelo e os melhores hiperparâmetros de forma eficiente, minimizando custos computacionais.
+1. [XGBoost](https://xgboost.readthedocs.io/en/stable/): Biblioteca otimizada para gradient boosting, muito eficiente para grandes volumes de dados. É conhecida por sua performance em competições de Machine Learning devido à sua rapidez e precisão.
+2. [LightGBM](https://lightgbm.readthedocs.io/en/stable/): Framework de boosting desenvolvido pela Microsoft, que utiliza uma técnica chamada histogram-based learning para ser ainda mais rápido e com menor uso de memória do que o XGBoost.
+3. [CatBoost](https://catboost.ai/): Biblioteca de boosting criada pela Yandex, projetada para lidar de forma nativa com variáveis categóricas, evitando a necessidade de one-hot encoding.
+4. [FLAML](https://microsoft.github.io/FLAML/): Framework leve de AutoML que busca automaticamente o melhor modelo e os melhores hiperparâmetros de forma eficiente, minimizando custos computacionais.
 
 **Integração Scikit-Learn + Keras** 
-1. [SciKeras](colocar o link): Um wrapper que permite usar modelos do Keras/TensorFlow dentro do ecossistema do Scikit-learn. Isso torna possível integrar redes neurais em pipelines, aplicar GridSearchCV e outros métodos de validação e otimização típicos do Scikit-learn.
+1. [SciKeras](https://pypi.org/project/scikeras/): Um wrapper que permite usar modelos do Keras/TensorFlow dentro do ecossistema do Scikit-learn. Isso torna possível integrar redes neurais em pipelines, aplicar GridSearchCV e outros métodos de validação e otimização típicos do Scikit-learn.
 
 **Deep Learning** 
-1. [TensorFlow](colocar o link): Framework de código aberto mantido pelo Google para desenvolvimento e treinamento de modelos de aprendizado profundo. Suporta tanto CPU quanto GPU/TPU, permitindo escalabilidade em projetos complexos.
+1. [TensorFlow](https://www.tensorflow.org/?hl=pt-br): Framework de código aberto mantido pelo Google para desenvolvimento e treinamento de modelos de aprendizado profundo. Suporta tanto CPU quanto GPU/TPU, permitindo escalabilidade em projetos complexos.
 2. [Keras](colocar o link): API de alto nível para construção de redes neurais, integrada ao TensorFlow. Facilita a criação e experimentação de modelos de Deep Learning de maneira simples e rápida.
 
 **Suporte a Datasets** 
 1. [KaggleHub](colocar o link): Biblioteca para acessar datasets do Kaggle diretamente via Python, sem a necessidade de download manual pelo site. Facilita a integração de competições e bases de dados no fluxo de trabalho de ciência de dados.
 
-Panorama completo de cada biblioteca instalada:
+### Panorama completo de cada biblioteca instalada:
 
-- Manipulação de dados: pandas, numpy
+| Categoria                  | Bibliotecas                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| **Manipulação de dados**        | pandas, numpy                                                              |
+| **Visualização**                | matplotlib, seaborn, squarify                                              |
+| **Pré-processamento e ML**      | scikit-learn, xgboost, lightgbm, catboost, flaml                            |
+| **Integração DL + ML**          | scikeras                                                                   |
+| **Deep Learning**               | tensorflow, keras                                                          |
+| **Utilitários e suporte**       | joblib, kagglehub, tabulate                                                |
 
-- Visualização: matplotlib, seaborn, squarify
-
-- Pré-processamento e ML: scikit-learn, xgboost, lightgbm, catboost, flaml
-
-- Integração DL + ML: scikeras
-
-- Deep Learning: tensorflow, keras
-
-- Utilitários e suporte: joblib, kagglehub, tabulate
 
 
 ## ⬇️ Instruções para execução do projeto

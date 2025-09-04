@@ -44,7 +44,7 @@ Este repositório refere-se ao Projeto MVP (Minimum Viable Product) desenvolvido
 
 ```
 ├── 📁 dataset
-├── 📝 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.ipynb
+├── 📝 MVP_ML.ipynb
 ├── 📝 README.md
 
 ```
@@ -52,7 +52,7 @@ Este repositório refere-se ao Projeto MVP (Minimum Viable Product) desenvolvido
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: Arquivo que serve como guia e explicação geral sobre o projeto (arquivo atual).
-- <b>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.ipnyb</b>: Notebook com a análise exploratória e pipeline de processamento dos dados.
+- <b>MVP_ML.ipnyb</b>: Notebook com a análise exploratória e pipeline de processamento dos dados.
 - <b>datasets</b>: Arquivos utilizados no projeto.
   - [Global AI Job Market & Salary Trends 2025](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025).
 
@@ -113,10 +113,10 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 **Deep Learning** 
 1. [TensorFlow](https://www.tensorflow.org/?hl=pt-br): Framework de código aberto mantido pelo Google para desenvolvimento e treinamento de modelos de aprendizado profundo. Suporta tanto CPU quanto GPU/TPU, permitindo escalabilidade em projetos complexos.
-2. [Keras](colocar o link): API de alto nível para construção de redes neurais, integrada ao TensorFlow. Facilita a criação e experimentação de modelos de Deep Learning de maneira simples e rápida.
+2. [Keras](https://keras.io/): API de alto nível para construção de redes neurais, integrada ao TensorFlow. Facilita a criação e experimentação de modelos de Deep Learning de maneira simples e rápida.
 
 **Suporte a Datasets** 
-1. [KaggleHub](colocar o link): Biblioteca para acessar datasets do Kaggle diretamente via Python, sem a necessidade de download manual pelo site. Facilita a integração de competições e bases de dados no fluxo de trabalho de ciência de dados.
+1. [KaggleHub](https://pypi.org/project/kagglehub/0.1.4/): Biblioteca para acessar datasets do Kaggle diretamente via Python, sem a necessidade de download manual pelo site. Facilita a integração de competições e bases de dados no fluxo de trabalho de ciência de dados.
 
 ### Panorama completo de cada biblioteca instalada:
 
@@ -136,7 +136,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 1. Clone este repositório em sua máquina local:
 
     ```
-    git clone https://github.com/Vibranovski/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.git
+    git clone https://github.com/Vibranovski/Machine_Learning.git
     ```
 
 3. Abra o arquivo no Google Colab ou em um ambiente local com suporte a Jupyter Notebooks.

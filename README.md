@@ -152,29 +152,46 @@ licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-
 
 ## 🎓 Referências
 
-BRUCE, A.; BRUCE, P. Estatística prática para cientistas de dados: 50 conceitos essenciais. Rio de Janeiro: Alta Books, 2019.
+### 📘 Fundamentos de Machine Learning
+- **BISHOP, C. M.; NASRABADI, N. M.** *Pattern recognition and machine learning*. New York: Springer, 2006.  
+- **MURPHY, K. P.** *Machine learning: a probabilistic perspective*. Cambridge: MIT Press, 2012.  
+- **SHALEV-SHWARTZ, S.; BEN-DAVID, S.** *Understanding machine learning: from theory to algorithms*. Cambridge University Press, 2014.  
+- **BURKOV, A.** *The hundred-page machine learning book*. Québec City: Andriy Burkov, 2019.  
 
-BROOKS JR., F. P. No silver bullet: essence and accidents of software engineering.
+---
 
-IEEE Computer, v. 20, n. 4, p. 10-19, 1987.
+### 🤖 Deep Learning
+- **GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A.** *Deep learning*. MIT Press, 2016.  
+- **KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G. E.** ImageNet classification with deep convolutional neural networks. In: *NeurIPS*, 2012.  
+  Disponível em: [https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf). Acesso em: 28 mar. 2023.  
+- **HE, K.; ZHANG, X.; REN, S.; SUN, J.** Deep residual learning for image recognition. *arXiv*, 2015.  
+  Disponível em: [https://arxiv.org/abs/1512.03385](https://arxiv.org/abs/1512.03385).  
+- **LECUN, Y.; KAVUKCUOGLU, K.; FARABET, C.** Convolutional networks and applications in vision. In: *ISCAS – IEEE International Symposium on Circuits and Systems*, 2010, Paris. p. 253–256.  
+- **MINSKY, M.; PAPERT, S.** *Perceptrons: an introduction to computational geometry*. Cambridge: MIT Press, 1969.  
 
-ESCOVEDO, T.; KOSHIYAMA, A. Introdução a data science: algoritmos de
-machine learning e métodos de análise. São Paulo: Casa do Código, 2020.
+---
 
-FAWCETT, T.; PROVOST, F. Data science para negócios: o que você precisa saber sobre mineração de dados e pensamento analítico de dados. Rio de Janeiro: Alta Books, 2018.
+### 📊 Data Science Prática
+- **GÉRON, A.** *Hands-on machine learning with Scikit-Learn, Keras & TensorFlow*. 2. ed. O’Reilly Media, 2019.  
+- **VANDERPLAS, J.** *Python data science handbook: essential tools for working with data*. O’Reilly Media, 2016.  
+- **ESCOVEDO, T.; KOSHIYAMA, A.** *Introdução a data science: algoritmos de machine learning e métodos de análise*. São Paulo: Casa do Código, 2020.  
+- **KALINOWSKI, M.; ESCOVEDO, T.; VILLAMIZAR, H.; LOPES, H.** *Engenharia de software para ciência de dados: um guia de boas práticas com ênfase na construção de sistemas de machine learning em Python*. Casa do Código, 2023.  
+- **FAWCETT, T.; PROVOST, F.** *Data science para negócios: o que você precisa saber sobre mineração de dados e pensamento analítico de dados*. Rio de Janeiro: Alta Books, 2018.  
+- **LAURA, I.; SANTI, S.** *Introduction to data science: a Python approach to concepts, techniques and applications*. Cham: Springer, 2017.  
+- **MCKINNEY, W.** *Python para análise de dados: tratamento de dados com Pandas, NumPy e IPython*. São Paulo: Novatec, 2019.  
 
-KALINOWSKI, M.; ESCOVEDO, T.; VILLAMIZAR, H.; LOPES, H. Engenharia
-de software para ciência de dados: um guia de boas práticas com ênfase na construção de sistemas de Machine Learning em Python. São Paulo: Casa do Código, 2023.
+---
 
-KNAFLIC, C. N. Storytelling with data: a data visualization guide for business professionals. Hoboken: Wiley, 2015.
+### 📈 Visualização de Dados
+- **KNAFLIC, C. N.** *Storytelling with data: a data visualization guide for business professionals*. Hoboken: Wiley, 2015.  
+- **MUNZNER, T.** *Visualization analysis and design*. Boca Raton: CRC Press, 2014.  
 
-LAURA, I.; SANTI, S. Introduction to data science: a Python approach to concepts, techniques and applications. Cham: Springer, 2017.
+---
 
-MCKINNEY, W. Python para análise de dados: tratamento de dados com Pandas, NumPy e IPython. São Paulo: Novatec, 2019.
+### 🛠️ Engenharia de Software
+- **BROOKS JR., F. P.** No silver bullet: essence and accidents of software engineering. *IEEE Computer*, v. 20, n. 4, p. 10-19, 1987.  
+- **SOMMERVILLE, I.** *Engenharia de software*. 10. ed. São Paulo: Pearson, 2019.  
 
-MUNZNER, T. Visualization analysis and design. Boca Raton: CRC Press, 2014.
-
-SOMMERVILLE, I. Engenharia de software. 10. ed. São Paulo: Pearson, 2019.
 
 ## 🙏 Agradecimentos
 
